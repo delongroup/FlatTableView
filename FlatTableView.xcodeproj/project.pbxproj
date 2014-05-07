@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78A53CB51916031500BF5AC6 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A53CB41916031500BF5AC6 /* icon@2x.png */; };
+		78ABDD0B191A1A99003D605F /* FlatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABDD03191A1A99003D605F /* FlatTableViewCell.m */; };
+		78ABDD0C191A1A99003D605F /* FlatTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABDD05191A1A99003D605F /* FlatTableViewSectionHeader.m */; };
+		78ABDD14191A1ACD003D605F /* GroupTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABDD11191A1ACD003D605F /* GroupTableView.m */; };
+		78ABDD15191A1ACD003D605F /* VerticalScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ABDD13191A1ACD003D605F /* VerticalScrollBar.m */; };
 		78CF1F92190627C700419E5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CF1F91190627C700419E5A /* Foundation.framework */; };
 		78CF1F94190627C700419E5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CF1F93190627C700419E5A /* CoreGraphics.framework */; };
 		78CF1F96190627C700419E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CF1F95190627C700419E5A /* UIKit.framework */; };
@@ -21,7 +26,6 @@
 		78CF1FB3190627C800419E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CF1F95190627C700419E5A /* UIKit.framework */; };
 		78CF1FBB190627C800419E5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78CF1FB9190627C800419E5A /* InfoPlist.strings */; };
 		78CF1FBD190627C800419E5A /* TableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CF1FBC190627C800419E5A /* TableDemoTests.m */; };
-		78CF1FC8190647F800419E5A /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CF1FC7190647F800419E5A /* CustomTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78A53CB41916031500BF5AC6 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		78ABDD02191A1A99003D605F /* FlatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewCell.h; sourceTree = "<group>"; };
+		78ABDD03191A1A99003D605F /* FlatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewCell.m; sourceTree = "<group>"; };
+		78ABDD04191A1A99003D605F /* FlatTableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewSectionHeader.h; sourceTree = "<group>"; };
+		78ABDD05191A1A99003D605F /* FlatTableViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewSectionHeader.m; sourceTree = "<group>"; };
+		78ABDD08191A1A99003D605F /* TableViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewStyle.h; sourceTree = "<group>"; };
+		78ABDD10191A1ACD003D605F /* GroupTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableView.h; sourceTree = "<group>"; };
+		78ABDD11191A1ACD003D605F /* GroupTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableView.m; sourceTree = "<group>"; };
+		78ABDD12191A1ACD003D605F /* VerticalScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalScrollBar.h; sourceTree = "<group>"; };
+		78ABDD13191A1ACD003D605F /* VerticalScrollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalScrollBar.m; sourceTree = "<group>"; };
 		78CF1F8E190627C700419E5A /* FlatTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CF1F91190627C700419E5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78CF1F93190627C700419E5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,8 +68,6 @@
 		78CF1FB8190627C800419E5A /* FlatTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlatTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		78CF1FBA190627C800419E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78CF1FBC190627C800419E5A /* TableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableDemoTests.m; sourceTree = "<group>"; };
-		78CF1FC6190647F800419E5A /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
-		78CF1FC7190647F800419E5A /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78ABDD01191A1A99003D605F /* FlatTableView */ = {
+			isa = PBXGroup;
+			children = (
+				78ABDD0F191A1ACD003D605F /* GroupTableView */,
+				78ABDD02191A1A99003D605F /* FlatTableViewCell.h */,
+				78ABDD03191A1A99003D605F /* FlatTableViewCell.m */,
+				78ABDD04191A1A99003D605F /* FlatTableViewSectionHeader.h */,
+				78ABDD05191A1A99003D605F /* FlatTableViewSectionHeader.m */,
+				78ABDD08191A1A99003D605F /* TableViewStyle.h */,
+			);
+			path = FlatTableView;
+			sourceTree = "<group>";
+		};
+		78ABDD0F191A1ACD003D605F /* GroupTableView */ = {
+			isa = PBXGroup;
+			children = (
+				78ABDD10191A1ACD003D605F /* GroupTableView.h */,
+				78ABDD11191A1ACD003D605F /* GroupTableView.m */,
+				78ABDD12191A1ACD003D605F /* VerticalScrollBar.h */,
+				78ABDD13191A1ACD003D605F /* VerticalScrollBar.m */,
+			);
+			path = GroupTableView;
+			sourceTree = "<group>";
+		};
 		78CF1F85190627C700419E5A = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +151,7 @@
 		78CF1F97190627C700419E5A /* TableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78ABDD01191A1A99003D605F /* FlatTableView */,
 				78CF1FA0190627C700419E5A /* AppDelegate.h */,
 				78CF1FA1190627C700419E5A /* AppDelegate.m */,
 				78CF1FA3190627C700419E5A /* Main.storyboard */,
@@ -122,8 +159,6 @@
 				78CF1FA7190627C700419E5A /* ViewController.m */,
 				78CF1FA9190627C700419E5A /* Images.xcassets */,
 				78CF1F98190627C700419E5A /* Supporting Files */,
-				78CF1FC6190647F800419E5A /* CustomTableView.h */,
-				78CF1FC7190647F800419E5A /* CustomTableView.m */,
 			);
 			path = TableDemo;
 			sourceTree = "<group>";
@@ -131,6 +166,7 @@
 		78CF1F98190627C700419E5A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78A53CB41916031500BF5AC6 /* icon@2x.png */,
 				78CF1F99190627C700419E5A /* FlatTableView-Info.plist */,
 				78CF1F9A190627C700419E5A /* InfoPlist.strings */,
 				78CF1F9D190627C700419E5A /* main.m */,
@@ -234,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CF1FAA190627C700419E5A /* Images.xcassets in Resources */,
+				78A53CB51916031500BF5AC6 /* icon@2x.png in Resources */,
 				78CF1F9C190627C700419E5A /* InfoPlist.strings in Resources */,
 				78CF1FA5190627C700419E5A /* Main.storyboard in Resources */,
 			);
@@ -254,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78ABDD15191A1ACD003D605F /* VerticalScrollBar.m in Sources */,
+				78ABDD0B191A1A99003D605F /* FlatTableViewCell.m in Sources */,
+				78ABDD14191A1ACD003D605F /* GroupTableView.m in Sources */,
 				78CF1FA8190627C700419E5A /* ViewController.m in Sources */,
+				78ABDD0C191A1A99003D605F /* FlatTableViewSectionHeader.m in Sources */,
 				78CF1FA2190627C700419E5A /* AppDelegate.m in Sources */,
-				78CF1FC8190647F800419E5A /* CustomTableView.m in Sources */,
 				78CF1F9E190627C700419E5A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableDemo/FlatTableView-Prefix.pch";
 				INFOPLIST_FILE = "TableDemo/FlatTableView-Info.plist";
@@ -396,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableDemo/FlatTableView-Prefix.pch";
 				INFOPLIST_FILE = "TableDemo/FlatTableView-Info.plist";
